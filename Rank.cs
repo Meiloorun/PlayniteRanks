@@ -12,6 +12,7 @@ public class Rank
 	{
 		this.RankName = RankName;
 		this.game = game;
+		game.addRank(this);
 	}
 
 	public void setNextRank(Rank nextRank)

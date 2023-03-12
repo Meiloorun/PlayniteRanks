@@ -6,9 +6,13 @@
              mc:Ignorable="d"
              d:DesignHeight="400" d:DesignWidth="600">
     <StackPanel>
-        <TextBlock Text="Description for Option1:"/>
-        <TextBox Text="{Binding Settings.Option1}"/>
+        <TextBlock Text="Enable Overwatch 2"/>
+        <CheckBox IsChecked="{Binding Settings.Option1}"/>
+        <TextBlock Text="Select Rank"/>
+        <ComboBox x:Name="comboBox"/>
         <TextBlock Text="Description for Option2:"/>
         <CheckBox IsChecked="{Binding Settings.Option2}"/>
+        
+
     </StackPanel>
 </UserControl>
