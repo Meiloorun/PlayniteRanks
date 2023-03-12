@@ -8,11 +8,19 @@ public class Rank
 	public Game game;
 
 
-	public Rank(string RankName, Rank nextRank, Rank prevRank, Game game)
+	public Rank(string RankName, Game game)
 	{
 		this.RankName = RankName;
-		this.nextRank = nextRank;
-		this.prevRank = prevRank;
 		this.game = game;
+	}
+
+	public void setNextRank(Rank nextRank)
+    {
+		this.nextRank = nextRank;
+    }
+
+	public void setPrevRank(Rank prevRank)
+	{
+		this.prevRank = prevRank;
 	}
 }
