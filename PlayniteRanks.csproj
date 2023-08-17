@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game.cs" />
+    <Compile Include="GameRankData.cs" />
     <Compile Include="PlayniteRanks.cs" />
     <Compile Include="PlayniteRanksSettings.cs" />
     <Compile Include="PlayniteRanksSettingsView.xaml.cs">
